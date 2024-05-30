@@ -51,6 +51,7 @@ def test():
         state = new_state
 
     env.render()
+    
 
 
 if __name__ == '__main__':
