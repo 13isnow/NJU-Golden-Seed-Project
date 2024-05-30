@@ -36,7 +36,7 @@ def main():
                 break
             next_action = sample(next_state)
             # Sarsa算法
-            Q[state, action] += alpha * (reward + gamma * Q[next_action, next_action] - Q[state, action])
+            Q[state, action] += alpha * (reward + gamma * Q[next_state, next_action] - Q[state, action])
             state, action = next_state, next_action
 
 
