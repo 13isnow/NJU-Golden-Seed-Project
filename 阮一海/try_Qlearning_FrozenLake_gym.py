@@ -58,6 +58,7 @@ def test():
             break
 
     env.render()
+    
 
 
 if __name__ == '__main__':
